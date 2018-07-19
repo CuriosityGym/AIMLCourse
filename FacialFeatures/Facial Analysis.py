@@ -2,7 +2,7 @@ import boto3
 import botocore
 import json
 
-fileToBeAnalysed="123.jpg"
+fileToBeAnalysed="person.jpg"
 
 try:    
     client= boto3.client('rekognition')
